@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    ui:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - 8501:8501
+        environment:
+            - API_ENDPOINT=http://34.175.73.238:8000

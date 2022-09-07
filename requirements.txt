@@ -1,0 +1,19 @@
+# Generalistic
+numpy
+pandas
+feedparser
+dateparser
+newsapi==0.1.1
+newsapi-python==0.2.6
+click==8.0
+beautifulsoup4==4.11
+# ML engine
+scikit-learn==0.24.1
+matplotlib
+umap-learn
+protobuf==3.20
+# Visualization
+streamlit==1.8.1
+streamlit-plotly-events==0.0.6
+plotly==5.6.0
+colorcet
